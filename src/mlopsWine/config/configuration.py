@@ -1,6 +1,7 @@
 from mlopsWine.constants import *
 from mlopsWine.utils.common import read_yaml, create_directories
-from mlopsWine.entity.config_entity import DataIngestionConfig
+from mlopsWine.entity.config_entity import DataIngestionConfig, DataValidationConfig
+
 
 #read all the yaml files.
 #and create directories for configration i.e. data ingestion
@@ -30,3 +31,19 @@ class configration_manager:
           )
 
           return data_ingestion_config
+    
+
+    def get_datavalidation_config(self) -> DataValidationConfig:
+          config = self.config.data_validation
+          schema = self.schema.COLUMNS
+
+          create_directories([config.root_dir])
+
+          data_validation_config = DataValidationConfig(
+                root_dir= config.root_dir,
+                STATUS_FILE= config.STATUS_FILE,
+                unzip_data_dir=config.unzip_data_dir,
+                all_schema=schema
+          )
+
+          return data_validation_config
