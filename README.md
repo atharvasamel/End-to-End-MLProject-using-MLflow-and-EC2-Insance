@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # End-to-end-Machine-Learning-Project-with-MLflow
+=======
+# End-to-End-Wine-Quality-Project-MLOPS
+>>>>>>> 5c1d5cdc0a272d5523a95453291e6b627f47f270
 
 
 ## Workflows
@@ -63,20 +67,34 @@ open up you local host and port
 ### dagshub
 [dagshub](https://dagshub.com/)
 
+<<<<<<< HEAD
 MLFLOW_TRACKING_URI=https://dagshub.com/atharvasamel/End-to-End-MLProject-using-MLflow-and-EC2-Insance.mlflow
 MLFLOW_TRACKING_USERNAME=atharvasamel
 MLFLOW_TRACKING_PASSWORD=c120563b5e788a67d9d7b073e4f175fbafe4a4b3
+=======
+MLFLOW_TRACKING_URI=https://dagshub.com/atharvasamel/End-to-End-MLProject-using-MLflow-and-EC2-Insance.mlflow \
+MLFLOW_TRACKING_USERNAME=atharvasamel \
+MLFLOW_TRACKING_PASSWORD=c120563b5e788a67d9d7b073e4f175fbafe4a4b3 \
+>>>>>>> 5c1d5cdc0a272d5523a95453291e6b627f47f270
 python script.py
 
 Run this to export as env variables:
 
 ```bash
 
+<<<<<<< HEAD
 export MLFLOW_TRACKING_URI=https://dagshub.com/atharvasamel/End-to-End-MLProject-using-MLflow-and-EC2-Insance.mlflow
 
 export MLFLOW_TRACKING_USERNAME=atharvasamel
 
 export MLFLOW_TRACKING_PASSWORD=c120563b5e788a67d9d7b073e4f175fbafe4a4b3
+=======
+export MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/End-to-end-Machine-Learning-Project-with-MLflow.mlflow
+
+export MLFLOW_TRACKING_USERNAME=entbappy 
+
+export MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0
+>>>>>>> 5c1d5cdc0a272d5523a95453291e6b627f47f270
 
 ```
 
@@ -166,3 +184,7 @@ MLflow
  - Logging & tagging your model
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5c1d5cdc0a272d5523a95453291e6b627f47f270
