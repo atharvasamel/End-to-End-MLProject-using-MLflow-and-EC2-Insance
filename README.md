@@ -1,4 +1,4 @@
-# End-to-end-Machine-Learning-Project-with-MLflow
+# End-to-End-MLProject-using-MLflow-and-EC2-Insance
 
 
 ## Workflows
